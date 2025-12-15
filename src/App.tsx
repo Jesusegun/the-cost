@@ -34,12 +34,6 @@ function App() {
         setCost(calculatedCost);
     };
 
-    const resetSession = () => {
-        setHours(0);
-        setPillar(null);
-        setCost(0);
-    };
-
     return (
         <BrowserRouter>
             <Routes>
